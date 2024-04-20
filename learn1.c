@@ -3,11 +3,12 @@
 
 int main() {
 
-    char name[] = "furkan";
-    char name2[] = "furkan2";
+    char str1[20];
 
-    printf("%d\n", *name);
-    printf("%d\n", *name2);
+    printf("Enter a string: ");
+    scanf("%s", str1);
+
+    printf("You entered: %s\n", str1);
 
 
     return 0;
